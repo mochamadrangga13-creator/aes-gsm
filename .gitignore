@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Upload & output files (runtime only)
+uploads/
+result/
+
+# Keys & secrets (jangan dishare publik)
+keys/
+*.pem
+*.key
+*.enc
+*.sig
+
+# Database (runtime)
+*.db
+
+# Temporary / generated files
+*.json
+*.txt
+*.xlsx
+temp_*
