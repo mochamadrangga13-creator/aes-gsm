@@ -1,27 +1,14 @@
-# Byte-compiled / cache
-__pycache__/
-*.pyc
-
-# Virtual environment
-venv/
-env/
-
-# Upload & output files (runtime only)
+# Ignore hasil enkripsi/dekripsi dan file besar
+*.zip
+*.enc
+*.meta.json
+*.sig
+*.db
 uploads/
 result/
+temp_*.json
 
-# Keys & secrets (jangan dishare publik)
-keys/
+# Ignore keys (jangan upload private key)
+keys/private_key.pem
+keys/public_key.pem
 *.pem
-*.key
-*.enc
-*.sig
-
-# Database (runtime)
-*.db
-
-# Temporary / generated files
-*.json
-*.txt
-*.xlsx
-temp_*
