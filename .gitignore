@@ -1,14 +1,28 @@
-# Ignore hasil enkripsi/dekripsi dan file besar
-*.zip
-*.enc
-*.meta.json
-*.sig
-*.db
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output & test files
 uploads/
 result/
-temp_*.json
-
-# Ignore keys (jangan upload private key)
-keys/private_key.pem
-keys/public_key.pem
+*.enc
+*.json
+*.txt
+*.xlsx
+*.db
 *.pem
+secret.key
