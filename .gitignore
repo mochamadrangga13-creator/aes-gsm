@@ -1,28 +1,47 @@
-# Python cache
+# ========================
+# Python cache & venv
+# ========================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Virtual environment
 venv/
 env/
 
-# IDE / Editor
+# ========================
+# OS / Editor files
+# ========================
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Output & test files
-uploads/
-result/
-*.enc
-*.json
-*.txt
-*.xlsx
+# ========================
+# Database & keys (sensitive)
+# ========================
 *.db
 *.pem
 secret.key
+
+# ========================
+# File hasil enkripsi/dekripsi
+# ========================
+*.enc
+*.json
+*.txt
+*.csv
+*.xlsx
+
+# ========================
+# Folder hasil output
+# ========================
+uploads/
+result/
+results/
+
+# ========================
+# Archive / backup
+# ========================
+*.zip
+*.tar
+*.gz
